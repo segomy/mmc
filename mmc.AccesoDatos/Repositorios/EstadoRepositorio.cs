@@ -20,16 +20,16 @@ namespace mmc.AccesoDatos.Repositorios
         //Agregamos el metodo Actualizar ya que es el unico que falta ya que por la implementacion de la Interface IRepositorio Heredamos los demas metodos 
         public void Actualizar(estado Oestado)
         {
-            var estadoDB = _db.estado.FirstOrDefault(e => e.Id == Oestado.Id);
-            if (estadoDB != null)
-            {
-                estadoDB.est_descripcion = Oestado.est_descripcion;
-                estadoDB.est_est = Oestado.est_est;
-                estadoDB.est_fchalt = Oestado.est_fchalt;
-                estadoDB.est_usu_alt = Oestado.est_usu_alt;
+            //var estadoDB = _db.estado.FirstOrDefault(e => e.Id == Oestado.Id);
+            //if (estadoDB != null)
+            //{
+            //    estadoDB.est_descripcion = Oestado.est_descripcion;
+            //    estadoDB.est_est = Oestado.est_est;
+            //    estadoDB.est_fchalt = Oestado.est_fchalt;
+            //    estadoDB.est_usu_alt = Oestado.est_usu_alt;
 
-               // _db.SaveChanges(); lo movemos 
-            }
+            //   // _db.SaveChanges(); lo movemos 
+            //}
         }
     }
 }

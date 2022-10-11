@@ -20,13 +20,13 @@ namespace mmc.AccesoDatos.Repositorios
 
         public void Actualizar(Bodega bodega)
         {
-            var bodegaDb = _db.Bodegas.FirstOrDefault(b => b.Id == bodega.Id);
-            if (bodegaDb != null)
-            {
-                bodegaDb.Nombre = bodega.Nombre;
-                bodegaDb.Descripcion = bodega.Descripcion;
-                bodegaDb.Estado = bodega.Estado;
-            }
+            //var bodegaDb = _db.Bodegas.FirstOrDefault(b => b.Id == bodega.Id);
+            //if (bodegaDb != null)
+            //{
+            //    bodegaDb.Nombre = bodega.Nombre;
+            //    bodegaDb.Descripcion = bodega.Descripcion;
+            //    bodegaDb.Estado = bodega.Estado;
+            //}
         }
 
     }
