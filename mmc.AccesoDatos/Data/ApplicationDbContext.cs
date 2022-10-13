@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using static mmc.AccesoDatos.Data.ApplicationDbContext;
 using mmc.Modelos;
-
+using mmc.Modelos.ConsultasMovil;
 
 namespace mmc.AccesoDatos.Data
 {
@@ -17,7 +17,7 @@ namespace mmc.AccesoDatos.Data
         {
 
         }
-        
+        public DbSet<Marca> Marcas { get; set; }
         public DbSet<UsuarioAplicacion> UsuarioAplicacion{get; set;}
 
     }

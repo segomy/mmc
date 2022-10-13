@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace mmc.Modelos.ConsultasMovil
 {
-    class ClaseBase
+   public class ClaseBase
     {
         [Key]
         public int Id { get; set; }

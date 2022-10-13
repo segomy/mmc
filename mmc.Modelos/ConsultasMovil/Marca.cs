@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace mmc.Modelos.ConsultasMovil
 {
-    class Marca:ClaseBase
+    public class Marca:ClaseBase
     {
         public String MarcaDescripcion { get; set; }
         // iniciales  MARDESC
@@ -16,3 +16,4 @@ namespace mmc.Modelos.ConsultasMovil
         // Descripcion  FechaAlta 
     }
 }
+
