@@ -18,7 +18,14 @@ namespace mmc.AccesoDatos.Data
 
         }
         public DbSet<Marca> Marcas { get; set; }
+
+        public DbSet<Modelo> Modelos { get; set; }
+
+        public DbSet<Serie> Serie { get; set; }
+
         public DbSet<UsuarioAplicacion> UsuarioAplicacion{get; set;}
+
+
 
     }
 }

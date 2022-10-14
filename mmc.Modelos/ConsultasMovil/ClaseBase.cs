@@ -9,8 +9,8 @@ namespace mmc.Modelos.ConsultasMovil
 {
    public class ClaseBase
     {
-        [Key]
-        public int Id { get; set; }
+        //[Key]
+        //public int Id { get; set; }
         public string UsuarioAlta { get; set; }
         public string UsuarioModifica { get; set; }
         public DateTime FechaAlta { get; set; }
