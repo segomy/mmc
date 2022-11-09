@@ -14,8 +14,8 @@ namespace mmc.Modelos.ConsultasMovil
         public int MarcaId { get; set; }
         public String MarcaDescripcion { get; set; }
 
-        public int IdModelo { get; set; }
-        [ForeignKey("IdModelo")]
+        public int ModeloId { get; set; }
+        [ForeignKey("ModeloId")]
         public IEnumerable<Modelo> Modelos { get; set; }
 
         // iniciales  MARDESC

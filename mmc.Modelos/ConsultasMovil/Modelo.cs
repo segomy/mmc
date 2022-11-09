@@ -11,8 +11,8 @@ namespace mmc.Modelos.ConsultasMovil
         public int ModeloId { get; set; }
         public String ModeloDescripcion { get; set; }
 
-        public int IdSerie { get; set; }
-        [ForeignKey("IdSerie")]
+        public int SerieId { get; set; }
+        [ForeignKey("SerieId")]
         public IEnumerable<Serie> Series { get; set; }
 
     }
